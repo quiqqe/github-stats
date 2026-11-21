@@ -5,78 +5,52 @@ svg {
   font-size: 14px;
   line-height: 21px;
 }
-
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
-  stroke: rgb(225, 228, 232);
+  fill: #0d1117;
+  stroke: #238636;
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
 }
-
-#gh-dark-mode-only:target #background {
-  fill: #0d1117;
-  stroke-width: 0.5px;
-}
-
 foreignObject {
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 32px);
 }
-
 table {
   width: 100%;
   border-collapse: collapse;
   table-layout: auto;
 }
-
 th {
   padding: 0.5em;
   padding-top: 0;
   text-align: left;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 14px;
-  font-weight: 600;
-  color: rgb(3, 102, 214);
+  font-weight: 700;
+  color: #39d353;
 }
-
-#gh-dark-mode-only:target th {
-  color: #58a6ff;
-}
-
 td {
   margin-bottom: 16px;
   margin-top: 8px;
   padding: 0.25em;
   font-size: 12px;
   line-height: 18px;
-  color: rgb(88, 96, 105);
+  color: #e6edf3;
 }
-
-#gh-dark-mode-only:target td {
-  color: #c9d1d9;
-}
-
 tr {
   transform: translateX(-200%);
   animation: slideIn 2s ease-in-out forwards;
 }
-
 .octicon {
-  fill: rgb(88, 96, 105);
+  fill: #39d353;
   margin-right: 1ch;
   vertical-align: top;
 }
-
-#gh-dark-mode-only:target .octicon {
-  fill: #8b949e;
-}
-
 @keyframes slideIn {
-  to {
-    transform: translateX(0);
-  }
+  to { transform: translateX(0); }
 }
 </style>
 <g>
